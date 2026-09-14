@@ -103,6 +103,9 @@ export function DefectVisionInspector({
               src={currentDefect.imageUrl}
               alt={currentDefect.title}
               className="w-full h-full object-cover"
+              onError={(e) => {
+                e.currentTarget.src = "https://images.unsplash.com/photo-1548346835-0345c02743f2?auto=format&fit=crop&w=1200&q=80";
+              }}
             />
 
             {/* Simulated Bounding Box Overlay */}
@@ -163,6 +166,9 @@ export function DefectVisionInspector({
                   src={d.imageUrl}
                   alt=""
                   className="w-10 h-10 rounded-lg object-cover shrink-0 border border-[var(--color-border)]"
+                  onError={(e) => {
+                    e.currentTarget.src = "https://images.unsplash.com/photo-1548346835-0345c02743f2?auto=format&fit=crop&w=1200&q=80";
+                  }}
                 />
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-1.5">

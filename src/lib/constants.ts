@@ -49,7 +49,7 @@ export const SAMPLE_INSPECTION_PROPERTIES: InspectionProperty[] = [
         category: "Roof Plumbing & Flashing",
         severity: "Major Defect",
         location: "Level 28 Plant Room North Parapet Capping",
-        imageUrl: "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?auto=format&fit=crop&w=1200&q=80",
+        imageUrl: "https://images.unsplash.com/photo-1548346835-0345c02743f2?auto=format&fit=crop&w=1200&q=80",
         boundingBox: {
           x: 18,
           y: 35,
